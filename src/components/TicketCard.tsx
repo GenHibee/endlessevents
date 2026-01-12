@@ -104,5 +104,7 @@ export const TicketCard = ({ ticket, showQR = false }: TicketCardProps) => {
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-primary" />
       )}
     </motion.div>
+
+    
   );
 };
