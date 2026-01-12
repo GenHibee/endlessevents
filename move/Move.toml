@@ -7,9 +7,5 @@ authors = ["Endless Events Team"]
 endless_events = "_"  # Set during deployment
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+EndlessFramework = { git = "https://github.com/endless-labs/endless-core.git", subdir = "endless-move/framework/endless-framework", rev = "main" }
 
-# For Endless Protocol, replace with:
-# EndlessFramework = { git = "https://github.com/endless-labs/endless-core.git", subdir = "endless-move/framework/endless-framework", rev = "main" }
-
-[dev-dependencies]
